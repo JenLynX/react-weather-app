@@ -1,38 +1,177 @@
-.App {
+.appWrap {
+  max-width: 700px;
+  margin: 44px auto;
+  padding: 30px 30px 80px;
+  border: 2px solid #7bb6f1;
+  border-radius: 5px;
+  background-color: #8dc6ff;
+}
+
+body {
+  background: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.city {
+  font-family: Cormorant;
+  font-weight: 600;
+  font-size: 40px;
+  padding: 10px 10px 5px 10px;
+  margin: 0;
+  height: 70px;
+  position: relative;
+  right: 210px;
+}
+#extra {
+  font-family: Cormorant;
+}
+#current-temp {
+  font-family: Cormorant;
+  font-size: 48px;
+  font-weight: 600;
+  padding-left: 36px;
+  position: relative;
+  top: 12px;
+}
+.unit {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  bottom: 8px;
+}
+#description {
+  font-family: Cormorant;
+  font-weight: 600;
+  font-size: 20px;
+  position: relative;
+  text-transform: capitalize;
+  position: relative;
+  top: 21px;
+}
+
+.sky {
+  font-family: Cormorant;
+  font-weight: 600;
+  font-size: 20px;
+  position: relative;
+  text-transform: capitalize;
+  position: relative;
+  top: 24px;
+}
+
+.HM {
+  font-family: Cormorant;
+
+  font-size: 18px;
+  position: relative;
+  top: 38px;
+  left: 16px;
+  color: #35373d;
+}
+.WS {
+  font-family: Cormorant;
+
+  font-size: 18px;
+  position: relative;
+  top: 38px;
+  color: #35373d;
+}
+img {
+  max-height: 66px;
+  max-width: 66px;
+}
+h2 {
+  text-align: right;
+  position: relative;
+  bottom: 130px;
+  margin: 0 auto;
+  padding: 12px 12px 16px 12px;
+  font-family: Cormorant;
+  font-size: 24px;
+  font-weight: 500;
+}
+h3 {
+  text-align: right;
+  position: relative;
+  bottom: 158px;
+  margin: 0 auto;
+  padding: 12px 12px 16px 12px;
+  font-family: Cormorant;
+  font-size: 24px;
+  font-weight: 500;
+}
+.form-control {
+  width: 260px;
+  height: 30px;
+  border: 2px solid rgb(70, 130, 214);
+}
+button {
+  position: relative;
+  bottom: 31px;
+  right: 5px;
+  display: block;
+  margin: 0 auto;
+  width: 70px;
+  height: 33px;
+  border-radius: 7px;
+  border: 2px solid rgb(70, 130, 214);
+  font-family: Cormorant;
+  color: #606470;
+}
+form {
+  padding-left: 13px;
+  max-height: 48px;
+}
+.container {
+  display: block;
+  margin: 0 auto;
+
+  font-family: Volkhov;
+  font-size: 20px;
+  max-width: 900px;
+  position: relative;
+  bottom: 32px;
   text-align: center;
+  line-height: 26px;
+  right: 15px;
+}
+.day {
+  font-family: Amiri;
+  font-style: italic;
+  font-size: 21px;
+  position: relative;
+  bottom: 220px;
+  left: 160px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#days-emoji {
+  max-height: 50px;
+  max-width: 50px;
+}
+#day-style {
+  background: linear-gradient(to bottom, #fad9cb 0%, #a2defa 100%);
+
+  padding: 10px 0px;
+  border: 2px solid rgb(127, 169, 228);
+  margin: 0px 5px;
+  min-width: 90px;
+  border-radius: 16px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.night {
+  font-size: 15px;
+  color: #606470;
 }
+.myself {
+  position: relative;
+  text-align: right;
+  top: 16px;
+  left: 14px;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  font-family: Amiri;
+  color: #606470;
+  font-size: 18px;
 }
