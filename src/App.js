@@ -34,10 +34,10 @@ export default function App() {
           </div>
 
           <div className="col-3">
-            <span className="HM">Humidity:30%</span>
+            <span className="HM">Humidity: 30%</span>
           </div>
           <div className="col">
-            <span className="WS"> Wind Speed: 10 km</span>
+            <span className="WS"> Wind Speed: 10km</span>
           </div>
         </div>
       </div>

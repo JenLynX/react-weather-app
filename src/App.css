@@ -56,7 +56,7 @@ body {
   font-size: 18px;
   position: relative;
   top: 38px;
-  left: 16px;
+
   color: #35373d;
 }
 .WS {
@@ -65,6 +65,7 @@ body {
   font-size: 18px;
   position: relative;
   top: 38px;
+  right: 15px;
   color: #35373d;
 }
 img {
@@ -153,11 +154,11 @@ form {
   font-size: 15px;
   color: #606470;
 }
-.myself {
+.Footer {
   position: relative;
   text-align: right;
-  top: 16px;
-  left: 14px;
+  bottom: 66px;
+  right: 90px;
 
   font-family: Amiri;
   color: #606470;
