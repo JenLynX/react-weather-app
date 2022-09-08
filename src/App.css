@@ -25,31 +25,20 @@ body {
   position: relative;
   right: 210px;
 }
-#extra {
+
+.current-temp {
   font-family: Cormorant;
-}
-#current-temp {
-  font-family: Cormorant;
-  font-size: 48px;
+  font-size: 40px;
   font-weight: 600;
   padding-left: 36px;
   position: relative;
   top: 12px;
 }
 .unit {
-  font-size: 18px;
+  font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
   position: relative;
-  bottom: 8px;
-}
-#description {
-  font-family: Cormorant;
-  font-weight: 600;
-  font-size: 20px;
-  position: relative;
-  text-transform: capitalize;
-  position: relative;
-  top: 21px;
+  bottom: 4px;
 }
 
 .sky {
@@ -59,7 +48,6 @@ body {
   position: relative;
   text-transform: capitalize;
   position: relative;
-  top: 24px;
 }
 
 .HM {
