@@ -18,10 +18,7 @@ export default function App() {
         </form>
         <h1>
           <span className="city">Vancouver</span>
-          <span className="icon">
-            {" "}
-            <img src="" id="emoji" />
-          </span>
+          <span className="icon"></span>
         </h1>
 
         <div className="row">
